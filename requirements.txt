@@ -1,0 +1,39 @@
+# Core dependencies
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Database
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.23
+alembic==1.13.1
+
+# Web scraping
+requests==2.31.0
+beautifulsoup4==4.12.2
+cloudscraper==1.2.71
+lxml==4.9.3
+
+# Data processing
+pandas==2.1.4
+python-dateutil==2.8.2
+
+# Task queue
+redis==5.0.1
+rq==1.15.1
+rq-scheduler==0.13.1
+
+# Logging and monitoring
+loguru==0.7.2
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+faker==21.0.0
+
+# Development
+black==23.12.1
+isort==5.13.2
+flake8==6.1.0
+mypy==1.7.1
